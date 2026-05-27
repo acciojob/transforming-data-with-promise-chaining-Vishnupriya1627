@@ -48,7 +48,7 @@ const promise5 = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       data += 10;
-      output.innerHTML = `Result: ${data}`;
+      output.innerHTML = `Final Result: ${data}`;
       resolve("promise5 resolved");
     }, 1000);
   });
